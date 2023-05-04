@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica de Classe</title>
+
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="painel_controle">
+        <div class="controle">
+            <label for="">Número de Objetos</label>
+            <p class="numero" id="num_objetos">0</p>
+        </div>
+
+        <div class="controle">
+            <label for="">Quantidade objetos</label>
+            <input class="numero" type="number" name="txt_quantidade" id="txt_quantidade" value="0" min="0">
+            <button id="btn_adicionar">Adicionar</button>
+        </div>
+
+        <div class="controle">
+            <button id="btn_remover">Remover Todos</button>
+        </div>
+    </div>
+
+    <div class="palco"></div>
+
+    <script src="funcionalidade.js"></script>
+</body>
+</html>
